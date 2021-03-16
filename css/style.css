@@ -1,0 +1,288 @@
+body{
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+	background-color:rgba(255, 255, 255, 0.9);
+
+}
+.navLinks li{
+	
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	/* border:solid 1px red; */
+
+}
+a{
+	text-decoration: none;
+	color: black;
+
+}
+a:hover{
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+
+.navLinks ul{
+	float: right;
+	padding-top: 27px;
+}
+.navbarName{
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 10px;
+}
+
+.clear{
+	clear: both;
+}
+.firstSectionBkg{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("https://drive.google.com/uc?export=download&id=1JUXaCx794Jiscw6f0sVQweYMrVvt-gnX");
+	/* background-attachment: fixed; */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.firstSection{
+	position: relative;
+}
+.firstSectionContent{
+	position: absolute;
+    margin: 0;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.firstText{
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.devider{
+	
+	background-color: white;
+	width: auto;
+	height: 2px;
+	/* background-image: url("https://drive.google.com/uc?export=download&id=1kk2J-Hk1cfs6k56wvQCcqdgOhlmSlBvR");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed; */
+	
+    
+	
+}
+.secondSectionBkg{
+	width: 100vw;
+	min-height: 100vh;
+	max-height:auto;
+	background-image: url("https://drive.google.com/uc?export=download&id=1eNm7L6tgs55-Bza9hdolxYhmknXOh2VZ");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+div .introduction{
+
+} 
+.videoBox{
+	background-image: url("https://drive.google.com/uc?export=download&id=1SP_a3H4NFqnRNsWJ5bVkw9M7HtN-QDgX"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.webBox{
+	background-image: url("https://drive.google.com/uc?export=download&id=1y8jPAEsYmV6aOoHxR0bNi9nPDaEpKDVf");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.ipText{
+	color:white;
+	
+	padding: 120px;
+	background-color: rgb(102, 204, 255);
+}
+.ipText h2{
+	font-weight: bold;
+	padding-bottom: 15px
+
+	
+}
+.ipText p {
+	font-size: 25px;
+
+}
+.ipText li {
+	font-size: 25px;
+
+}
+
+.ipBox{
+
+}
+.introPanel{
+	
+
+}
+#more,  #more2 {
+	display: none;
+}
+.portfolio{
+	background-color: white;
+	width: auto;
+	height: auto;
+	background-image: url("https://drive.google.com/uc?export=download&id=1kk2J-Hk1cfs6k56wvQCcqdgOhlmSlBvR");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+/* Style the buttons */
+.allBtn{
+	background-color:rgb(102, 204, 255);
+	border: 2px solid white;
+  
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.btnTransparent{
+	background-color:rgba(102, 204, 255, 0);
+	border: 2px solid white;
+  
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.btnTransparent:hover{
+	background-color: white ;
+  color: rgb(102, 204, 255) ;
+}
+
+.allBtn:hover{
+	background-color: white ;
+  color: rgb(102, 204, 255);
+  
+
+}
+
+
+/* div .introduction{
+
+}
+div.box{
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(102, 204, 255, 0.5);
+	padding-top: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+} */
+/* .bkg-picture{
+	
+	background-image: url("https://drive.google.com/uc?export=download&id=1ycsMjFq2-y5Gb3wQZQ3amUv_ikj5JIv5"); ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100vw;
+max-height:auto;
+} */
+
+
+
+
+
+/* portfolio css */
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.secondSectionBkg h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.rowNew {
+  margin: 8px -16px;
+
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.rowNew,
+.rowNew > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.rowNew:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgba(102, 204, 255, 0.4);
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+
+
+
+
+
+/* Add a dark background color to the active button */
+
+
+.secondSectionElements h3{
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+
+}
+
+
+
+.footer{
+	background-color: #6cff;
+}
+

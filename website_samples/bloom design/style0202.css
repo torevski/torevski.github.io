@@ -1,0 +1,108 @@
+.body {
+    margin: 0;
+}
+
+.navBar {
+    background-color: black;
+}
+
+.navBar h1 {
+    font-family: 'Akronim', cursive;
+    padding-top: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    padding-top: 12px;
+}
+
+li {
+    list-style-position: inside;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navBar h1 {
+    color: pink;
+}
+
+.secondSection {
+    padding: 30px 0;
+    background-color: lightgrey;
+}
+
+.secondSection img {
+    width: 100%;
+}
+
+button {
+    margin-top: 10px;
+    background-color: orange;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 20px;
+}
+
+.block img {
+    width: 100%;
+}
+
+.thirdSection {
+    margin: 20px 0;
+    padding-bottom: 30px;
+}
+
+.thirdSectionHeading h2 {
+    padding: 20px 0;
+}
+
+.thirdSectionBlocks h3 {
+    padding-top: 20px;
+}
+
+.thirdSectionBlocksContent {
+    padding-bottom: 50px;
+}
+
+.calendar img {
+    float: left;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.calendar {
+    padding-bottom: 20px;
+}
+
+.fourthSection {
+    color: white;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.logos img {
+    width: 30px;
+}
+
+.fourthSectionContent h4 {
+    padding-bottom: 20px;
+}
+
+.lastPart {
+    padding-left: 20px;
+}
+
+.footer p {
+    padding-top: 10px;
+}

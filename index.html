@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Torevski</title>
+    <script src="https://kit.fontawesome.com/8749853b69.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- navbar start-->
+        <div class="row navbar  ">
+            <div class=" col-md-12 navbarElements">
+                <div class="row navbarContent">
+                    <div class="col-md-3 offset-md-1 col-sm-12 navbarName text-center text-dark">
+                        <!-- <a href="#"> <img src="images/favicon-32x32.png" alt="logo"> </a> -->
+                        <h3> Blagojche Torevski</h3>
+                        <p> video editor & front-end developer</p>
+                    </div>
+                    <div class="col-md-4 offset-md-4 col-sm-12 navLinks ">
+                        <ul class="text-center">
+                            <li class="mx-2"> <a href="#introduction">Intro</a> </li>
+                            <li class="mx-2"> <a href="#projects">Projects</a> </li>
+                            <li class="mx-2"> <a href="#footer">Contact</a> </li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar end-->
+        <!-- main part start -->
+        <div class="row firstSection " >
+            <div class="col-md-12 firstSectionBkg">
+                <div class="row firstSectionContent">
+                    <div class=" text-center col-md-12 firstText ">
+                        <h1 class="text-light display-1 py-5"> This is me!</h1>
+                        <h4 class="text-light"> ... fighting with the clouds but always on the top !</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main part end -->
+        <!-- first devider start -->
+        <div class="row devider">
+            <div class="col-md-12">
+                <p class="text-center text-light pt-4"> </p>
+            </div>
+        </div>
+        <!-- first devider end -->
+        <!--  introduction start -->
+        <div id="#introduction" class="row introduction" >
+            <div class="col-md-6  introPanel ipText ">
+                <h2>Video</h2>
+                <p> For the past 20 years as a commercial film and video editor, I have been bringing to life high-quality advertising and entertainment for many brands and producers <span id="dots">...</span></p>
+                <div id="more">
+                    <p>Throughout my career, I have focused on providing a large variety of clients with my unique technical and stylistic expertise, utilizing the latest editing and postproduction workflows.</p>
+                </div>
+                <button class="allBtn" onclick="moreFunction()" id="moreBtn">Read more</button>
+            </div>
+            <div class="col-md-6 videoBox introPanel ipBox">
+            </div>
+            <div class="col-md-6 webBox introPanel ipBox ">
+            </div>
+            <div class="col-md-6  introPanel ipText">
+                <h2>Web</h2>
+                <p> A front-end developer's role is to combine design and business logic to achieve a user-facing product. To do this successfully, a wide skill set is necessary to produce a quality user experience
+                    that leads to meeting business goals
+                    <span id="dots2">...</span></p>
+                <div id="more2">
+                    <p>With my experience I can:</p>
+                    <ul>
+                        <li>Create responsive websites that work on a wide range of devices;</li>
+                        <li>Assist with production of clean and functional design;</li>
+                        <li>Bridge communication gap between designers and developers;</li>
+                        <li>Integrate your website into an easy to use content management system.</li>
+                    </ul>
+                </div>
+                <button class="allBtn" onclick="moreFunction2()" id="moreBtn2">Read more</button>
+            </div>
+        </div>
+        <!--  introduction end -->
+        <!-- second devider start -->
+        <div class="row devider">
+            <div class="col-md-12">
+                <p class="text-center text-light pt-4"> </p>
+            </div>
+        </div>
+        
+        <!-- second devider end -->
+        <!-- resume start -->
+
+
+        <div class="row portfolio py-3">
+            <div class="col-md-6 text-right">
+                
+                <p class="text-light pt-3">Please feel free to download my resume... </p>
+    
+                
+            </div>
+            <div class="col-md-6 ">
+                <a class="pl-2" href="https://drive.google.com/uc?export=download&id=1HXIdJffIi953byhU0uuxcJ4ROGG1BnDl"> <button class="btnTransparent" >download PDF</button> </a>
+                
+            </div>
+            
+            
+        </div>
+        <!-- resume end -->
+        <!-- third devider start -->
+        <div class="row devider">
+            <div class="col-md-12">
+                <p class="text-center text-light pt-4"> </p>
+            </div>
+        </div>
+        
+        <!-- third devider end -->
+        <!-- part two start -->
+        <div class="row secondSection" id="projects">
+            <div class="col-md-12 secondSectionBkg">
+                <div class="row secondSectionElements">
+                    <div class="col-md-12">
+                        <h3 class="text-light py-5 text-center"> Dive deeply in to my projects</h3>
+                        <div id="myBtnContainer " class="text-center pt-5 pb-2">
+                            <button class="btnTransparent" onclick="filterSelection('all')"> Show all</button>
+                            <button class="btnTransparent" onclick="filterSelection('video')"> Video </button>
+                            <button class="btnTransparent" onclick="filterSelection('web')"> www</button>
+                            <button class="btnTransparent" onclick="filterSelection('hobby')"> Hobby</button>
+                        </div>
+                    </div>
+                    <div class="col-md-10 offset-md-1">
+                        <div class="rowNew text-light">
+                            <div class="column video">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=1uRYIGwSgPnTvwR349Cvnr7G7q4eK_NuJ" alt="Oh,My Love trailer" style="width:100%">
+                                    <h4 class="pt-3">Oh,My Love</h4>
+                                    <p>comedy-2018</p>
+                                    <p>Editorial Department</p>
+                                    <a href="https://youtu.be/kVGjmysoInU" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                            <div class="column video">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=1iW-iU7TP6QmP4jzkt21EFSksG42llOTc" alt="The Happiness Effect trailer" style="width:100%">
+                                    <h4 class="pt-3">The Happiness Effect</h4>
+                                    <p>drama-2019</p>
+                                    <p>Editor</p>
+                                    <a href="https://youtu.be/WClO6aSabJU" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                            <div class="column video">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=1JyhD2RxRefqITMfGqB3y0EenLKycTfvQ" alt="Piney The Lonesome Pine" style="width:100%">
+                                    <h4 class="pt-3">Piney The Lonesome Pine</h4>
+                                    <p>Short Animated Film-2019</p>
+                                    <p>Editorial Department</p>
+                                    <a href="https://youtu.be/jwRHtgwjY2I" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                            <div class="column video">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=1i4FZbbxJGNy48ltnCR0QPOUdvDj8qWq-" alt="Pascalin cafe video commercial" style="width:100%">
+                                    <h4 class="pt-3">Pascalin</h4>
+                                    <p>commercial-2019</p>
+                                    <p>Editing & Color Grading</p>
+                                    <a href="https://youtu.be/I6ZlZxqQfR4" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                            <div class="column video">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=1kBITgPSgNNedyqUJSK2RR0uEMSweHOg0" alt="Vero supermarket video commercial" style="width:100%">
+                                    <h4 class="pt-3">Vero</h4>
+                                    <p>commercial-2019</p>
+                                    <p>Editoing & Color Grading</p>
+                                    <a href="https://youtu.be/ZtWfjLLbYGE" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                            <div class="column video">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=1KY1NzUkrbEis-RutffCi7ZVGm4iqSTCe" alt="Viva video commercial" style="width:100%">
+                                    <h4 class="pt-3">Viva</h4>
+                                    <p>commercial-2019</p>
+                                    <p>Editoing & Color Grading</p>
+                                    <a href="https://youtu.be/US8FtU3bnp8" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                            <div class="column web">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=1VmawtCZEPtMvfxsLjnULXHsc9UNBHrgv" alt="website landing page" style="width:100%">
+                                    <h4 class="pt-3">From Zero To Hero!</h4>
+                                    <p>Demo template-2017</p>
+                                    <p>Front-end web development</p>
+                                    <a href="website_samples/bloom%20design/index0202.html" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                            <div class="column web">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=11mt5jNUtGqBmes2OsEROT3VFvAbnwN40" alt="website landing page" style="width:100%">
+                                    <h4 class="pt-3">From Zero To Hero!</h4>
+                                    <p>Demo template-2019</p>
+                                    <p>Front-end web development</p>
+                                    <a href="website_samples/Ocean_Purple_design/index.html" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                            <div class="column web">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=18O8v6SAacOI-t_zeJQrZRD5vgyvOrICR" alt="website landing page" style="width:100%">
+                                    <h4 class="pt-3">From Zero To Hero!</h4>
+                                    <p>Demo template-2019</p>
+                                    <p>Front-end web development</p>
+                                    <a href="website_samples/Studio_Template_Bootstrap/index.html" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                            <div class="column web">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=1rmEtdsQcjYIF8yAUFGRXY_HJm9-FmOEY" alt=" website landing page" style="width:100%">
+                                    <h4 class="pt-3">Video House Animation</h4>
+                                    <p>Maintenance And Update-2018-2019</p>
+                                    <p>Front-end web development</p>
+                                    <a href="http://videohouse.mk/" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+
+
+                            <div class="column web">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=1E2HtNki5LAxHyFFkp6M5HwPxcPt6ZClu" alt="Carmax.mk website landing page" style="width:100%">
+                                    <h4 class="pt-3">Carmax</h4>
+                                    <p>content and development / e-store 2020</p>
+                                    <p>Front-end web development</p>
+                                    <a href="https://carmax.mk/" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+
+
+                            <div class="column hobby">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=1WCmBMaxyXffn6xAWHXBYPVVdtWYIh7fk" alt="Hobby01" style="width:100%">
+                                    <h4 class="pt-3">Hobby Project</h4>
+                                    <p>Photography</p>
+                                    <p>coming soon</p>
+                                    <a href="" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                            <div class="column hobby">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=11ZMvqMWP9KGDcswybbYFXOdjH-PG4aho" alt="Hobby01" style="width:100%">
+                                    <h4 class="pt-3">Hobby Project</h4>
+                                    <p>DIY Concrete Clock</p>
+                                    <p>coming soon</p>
+                                    <a href="" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                            <div class="column hobby">
+                                <div class="content">
+                                    <img src="https://drive.google.com/uc?export=download&id=1dg8OBKmTZOPJrkixennQ3c9lbzD5N7Jc" alt="Hobby01" style="width:100%">
+                                    <h4 class="pt-3">Hobby Project</h4>
+                                    <p>DIY Tantra Chair</p>
+                                    <p>coming soon</p>
+                                    <a href="" target="_blank"> <button class="btnTransparent">preview</button> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- part two end -->
+        <!-- resume start -->
+
+
+        <div class="row portfolio py-3">
+            <div class="col-md-6 text-right">
+                
+                <p class="text-light pt-3">Please feel free to download my resume... </p>
+    
+                
+            </div>
+            <div class="col-md-6 ">
+                <a class="pl-2" href="https://drive.google.com/uc?export=download&id=1HXIdJffIi953byhU0uuxcJ4ROGG1BnDl"> <button class="btnTransparent" >download PDF</button> </a>
+                
+            </div>
+            
+            
+        </div>
+        <!-- resume end -->
+        <!-- footer start -->
+        <div class="row footer" id="footer">
+            <div class="col-md-12 text-center">
+                <h2 class="my-5"> ____ </h2>
+                <h2 class="mb">GET IN TOUCH</h2>
+            </div>
+            <div class="col-md-6  text-center mt-3">
+                <h2 class="mt-5">Address:</h2>
+                <p class="pt-5">Gjurchin Kokale 37</p>
+                <p>1000, Skopje</p>
+                <p class="pb-5">Macedonia</p>
+                <h2>Phone:</h2>
+                <p class="">+389 78 257839</p>
+                <div class="footerSoc">
+                    <a href="https://www.linkedin.com/in/blagojatorevski/" target="_blank"><i class="fab p-1 fa-2x fa-linkedin-in"></i></a>
+                    <a href="https://www.imdb.com/name/nm11297270/?ref_=fn_al_nm_3"><i class="fab p-1 fa-2x fa-imdb"></i></a>
+                    <a href="https://www.youtube.com/channel/UCTRrmjoVDVsxiAS2G0nTtJg"><i class="fab p-1 fa-2x fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/blagoja.torevski"><i class="fab p-2 fa-2x fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/Torevski"><i class="fab p-1 fa-2x fa-twitter"></i></a>
+                    <a href="https://join.skype.com/invite/AXcDZiJEU0ci"><i class="fab p-1 fa-2x fa-skype"></i></a>
+                </div>
+            </div>
+            <div class="col-md-5 mt-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <label for="name" class="">Your name</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="please enter your name">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0 ">
+                                <label for="email" class="">Your email</label>
+                                <input type="text" id="email" name="email" class="form-control" placeholder="please enter your email address">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form my-3">
+                                <label for="subject" class="">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="please enter subject">
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <label for="message">Your message</label>
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+                </form>
+                <div class="text-center text-md-left my-5">
+                    <a class="allBtn" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+            </div>
+            <div class="col-md-12 text-center mt-5 mb-3">
+                <p> &copy 2019 by Torevski </p>
+            </div>
+        </div>
+        <!-- footer end -->
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="js/main.js" type="text/javascript" charset="utf-8" async defer></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
